@@ -1,0 +1,29 @@
+{
+  "Sentiment": {
+    "api_key": "PRIVATE"
+  },
+  "TD_Ameritrade": {
+    "api_key": "PRIVATE",
+    "refresh_token": "PRIVATE",
+    "refresh_date": "PRIVATE",
+    "bearer": "WILL CREATE",
+    "bearer_date": "WILL CREATE"
+  },
+  "Twitter": {
+    "bearer": "PRIVATE"
+  },
+  "Email": {
+    "address": "twitterstockclient@gmail.com",
+    "password": "PRIVATE",
+    "address_destination": ""
+  },
+  "Algo": {
+    "trailing_stop": 0.08,
+    "max_price": 1000.0,
+    "max_volume": 500000000,
+    "strategy": "rolling_max",
+    "profit_target": 0.1,
+    "error_margin": 0.015,
+    "capital_limit": 1.0
+  }
+}
